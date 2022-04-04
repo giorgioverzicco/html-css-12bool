@@ -132,51 +132,51 @@
 }
 
 /* Alignments */
-.justify-content-start {
+.start {
   justify-content: flex-start;
 }
 
-.justify-content-center {
+.center {
   justify-content: center;
 }
 
-.justify-content-end {
+.end {
   justify-content: flex-end;
 }
 
-.justify-content-around {
+.around {
   justify-content: space-around;
 }
 
-.justify-content-between {
+.between {
   justify-content: space-between;
 }
 
-.justify-content-evenly {
+.evenly {
   justify-content: space-evenly;
 }
 
-.align-items-start {
+.top {
   align-items: flex-start;
 }
 
-.align-items-center {
+.middle {
   align-items: center;
 }
 
-.align-items-end {
+.bottom {
   align-items: flex-end;
 }
 
-.align-self-start {
+.self-top {
   align-self: flex-start;
 }
 
-.align-self-center {
+.self-middle {
   align-self: center;
 }
 
-.align-self-end {
+.self-bottom {
   align-self: flex-end;
 }
 
