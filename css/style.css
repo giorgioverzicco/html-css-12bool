@@ -1,6 +1,9 @@
 [class*="col-"] {
   background-color: #006CFA;
   color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .nested {

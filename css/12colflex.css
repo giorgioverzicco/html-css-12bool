@@ -20,12 +20,6 @@
 }
 
 /* Columns */
-[class*="col-"] {
-  text-align: center;
-  align-items: center;
-  padding: 20px;
-}
-
 .col {
   flex-grow: 1;
   flex-basis: 0;
