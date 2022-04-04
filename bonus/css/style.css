@@ -99,6 +99,7 @@ header a {
   font-weight: 700;
   cursor: pointer;
   text-transform: uppercase;
+  transition: box-shadow 0.4s, transform 1s;
 }
 
 .btn--watch {
@@ -132,4 +133,12 @@ header a {
   border: none;
   padding: 0;
   font-size: 1rem;
+  border-radius: 50%;
+  padding: 10px 12px;
+}
+
+.btn:hover {
+  box-shadow: rgb(82, 82, 82, 0.6) 0px 0px 6px 1px inset,
+    rgb(38, 57, 77) 0px 5px 20px -10px;
+  transform: translateY(-0.15em);
 }
