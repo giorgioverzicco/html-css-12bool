@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+/* Utilities */
+.d-flex {
+  display: flex;
+}
+
 /* Containers */
 .container {
   max-width: 1170px;
@@ -166,6 +171,18 @@
 
 .bottom {
   align-items: flex-end;
+}
+
+.content-start {
+  align-content: flex-start;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.content-end {
+  align-content: flex-end;
 }
 
 .self-top {
