@@ -142,3 +142,38 @@ header a {
     rgb(38, 57, 77) 0px 5px 20px -10px;
   transform: translateY(-0.15em);
 }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .header__logo, .open-menu {
+    font-size: 1.5rem;
+  }
+
+  .card__title {
+    margin-bottom: 200px;
+  }
+
+  .btn--watch {
+    font-size: 1.25rem;
+  }
+
+  .btn--story {
+    font-size: 1.25rem;
+  }
+
+  .btn--learn {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-nav__menu-item-link {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card__content {
+    padding: 40px;
+  }
+}
