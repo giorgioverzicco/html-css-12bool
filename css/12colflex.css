@@ -89,6 +89,10 @@
 }
 
 /* Offsets */
+.col-xs-offset-0 {
+  margin-left: 0;
+}
+
 .col-xs-offset-1 {
   margin-left: calc(100% / 12);
 }
@@ -262,6 +266,10 @@
     max-width: calc((100% / 12) * 12);
   }
 
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+
   .col-sm-offset-1 {
     margin-left: calc(100% / 12);
   }
@@ -369,6 +377,10 @@
     max-width: calc((100% / 12) * 12);
   }
 
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+
   .col-md-offset-1 {
     margin-left: calc(100% / 12);
   }
@@ -474,6 +486,10 @@
   .col-lg-12 {
     flex: 0 0 calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
+  }
+
+  .col-lg-offset-0 {
+    margin-left: 0;
   }
 
   .col-lg-offset-1 {
