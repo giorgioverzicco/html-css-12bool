@@ -1,0 +1,103 @@
+/* Commons */
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,24,48,1) 0%, rgba(42,26,46,1) 100%);
+}
+
+/* Typo */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+header {
+  height: 80px;
+  color: #fff;
+}
+
+.logo {
+  padding: 20px 10px;
+  margin-right: 20px;
+}
+
+.logo img {
+  height: 40px;
+  filter: invert(1);
+}
+
+.header-left, .header-center, .header-right {
+  height: 100%;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  border: 1px solid rgb(255, 255, 255, 0.75);
+  border-radius: 20px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,37,78,1) 0%, rgba(49,38,70,1) 100%);
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.search-bar button[type="submit"] {
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.account {
+  color: inherit;
+  font-size: 1.4rem;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.menu {
+  color: inherit;
+  font-size: 1.4rem;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.main-nav {
+  display: none;
+}
+
+.main-nav__menu {
+  list-style-type: none;
+  gap: 20px;
+}
+
+/* Responsive */
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+  }
+}
